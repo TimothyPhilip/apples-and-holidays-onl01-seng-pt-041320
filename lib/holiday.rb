@@ -84,7 +84,8 @@ def all_holidays_with_bbq(holiday_hash)
      puts "#{holiday_name} #{supply_array}"
      if supply_array == "BBQ"
        return holiday.keys
-end
+    end
+  end
  end
 end
 
