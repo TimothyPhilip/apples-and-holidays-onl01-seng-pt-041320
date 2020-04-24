@@ -82,11 +82,11 @@ end
 def all_holidays_with_bbq(holiday_hash)
   holiday_hash.map do |season, holiday|
   holiday.each do |holiday_name, supply_array|
-     if supply_array.include? "BBQ"
+    
        binding.pry
        return holiday.keys
        
-    end
+    
   end
  end
 end
